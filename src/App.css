@@ -1,0 +1,185 @@
+.input{
+  width:50%;
+  margin-top:2%;
+  position:relative;
+  left:20%;
+}
+.signUp{
+  border:2px solid blue;
+  width:75%;
+ position:relative;
+ left:20%;
+}
+.signIn{
+  border:2px solid blue;
+  width:60%;
+  height:30%;
+  position:relative;
+ left:25%;
+}
+
+button.btn.btn-primary{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  position:relative;
+  transition:all 500ms ease;
+  border-radius: 10px;
+  left:40%;
+}
+button.btn.btn-primary:hover{
+  transform: scale(1.15);
+  background-color: darkcyan;
+}
+
+/* span{
+  font-size:small;
+  color:red;
+  position:relative;
+  left:20%;
+} */
+div{
+  color:red;
+}
+.card{
+  height:300px;
+  width: 200px;
+  float:left;
+  margin:4px;
+  border:solid black 5px;
+}
+button{
+  padding:0px;
+  float:left;
+  background-color: black;
+}
+
+.container{
+  position:absolute;
+  left:0%;
+}
+h1{
+  color:aqua;
+  position:relative;
+  left:5%;
+}
+div.row,div.container{
+  margin-left:50px;
+  padding:0px;
+}
+.cardImg{
+  /* margin:0px; */
+  transition: all 500ms ease;
+}
+.cardImg:hover{
+  transform: scale(1.15);
+}
+p,span{
+  color:red;
+  font-size: x-small;
+  font-weight: 900;
+  position:relative;
+  left:20%;
+}
+.navbar{
+  background-color: lightblue;
+}
+a.up{
+  position:relative;
+  top:20px;
+  left:230px;
+  color:violet;
+  text-decoration: underline;
+  font-weight: 1000;
+}
+a.in{
+  position:relative;
+  top:20px;
+  left:190px;
+  color:violet;
+  text-decoration: underline;
+  font-weight: 1000;
+}
+.img{
+  width:500px;
+  height:500px;
+}
+
+
+.body{
+  position:relative;
+  bottom: 300px;
+}
+p.card-text{
+  color:azure;
+  position:relative;
+  left:100px;
+}
+div.movie{
+  height:100%;
+  width:60%;
+  float:left;
+}
+div.card.cardMovie{
+  height:100%;
+  width:100%;
+}
+img.card-img{
+  width:100%;
+  border-radius: 4px;
+}
+div.outline{
+  border:2px solid black;
+  height:500px;
+  width:842px;
+}
+div.info{
+  float:right;
+  background-color: black;
+  opacity: 0.9;
+  height:100%;
+  width:40%;
+}
+.rating{
+  position:relative;
+  margin:10px;
+  left:15%;
+}
+.review{
+  position: relative;
+  color:azure;
+  margin:10px;
+  left:15%;
+  background-color: brown;
+  width:80%;
+  padding:10px;
+  border-radius: 5px;
+}
+button.btn.rate{
+  position: absolute;
+  left:70%;
+  top:40%;
+  border-radius:6px;
+  color:black;
+  font-weight: 700;
+  background-color:green;
+  font-size: x-small;
+  transition: all 500ms ease;
+}
+button.btn.rate:hover{
+  transform: scale(1.15);
+}
+.genres{
+  margin:10px;
+  position:relative;
+  left:15%;
+}
+.description{
+  font-size: x-small;
+  padding:15px;
+  color:azure;
+}
+.book{
+  background-color: red;
+  padding:10px;
+  font-weight: 750;
+}

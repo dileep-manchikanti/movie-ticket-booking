@@ -1,0 +1,19 @@
+body {
+  background-color: rgb(40,40,40);
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+body{
+  margin: 0%;
+  background: url('https://i.pinimg.com/736x/4b/ed/36/4bed369e3d0341b40dbb46d7b97076e2.jpg');
+  height:100%;
+  width:100%;
+}
