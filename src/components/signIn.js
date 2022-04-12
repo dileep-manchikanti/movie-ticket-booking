@@ -2,7 +2,7 @@ import React,{Component} from 'react';
 import {auth} from '../firebase/auth';
 import {signInWithEmailAndPassword} from 'firebase/auth';
 import {Form,Input,Col,FormGroup,Button} from 'reactstrap';
-import {Link} from 'react-router-dom';
+import {Link,useNavigate,Navigate} from 'react-router-dom';
 
 class SignIn extends Component{
     constructor(props){
@@ -18,9 +18,6 @@ class SignIn extends Component{
         this.handleInput=this.handleInput.bind(this);
         this.handleBlur=this.handleBlur.bind(this);
         this.signIn=this.signIn.bind(this);
-    }
-    changeStyle(ele){
-        document.getElementById('signIn').classList+='active';
     }
     handleInput(event){
         const target=event.target;
@@ -47,11 +44,15 @@ class SignIn extends Component{
     signIn(){
         const email=this.state.email;
         const password=this.state.password;
+        alert(email+" "+password);
         signInWithEmailAndPassword(auth,email,password)
         .then(()=>{
-            
+            alert("hi");
         })
         .catch((error)=>{
+            alert(error.message);
+            let navigate=useNavigate();
+            navigate("/dashboard");
             console.log(error.message);
         });
     }

@@ -8,14 +8,14 @@
   border:2px solid blue;
   width:75%;
  position:relative;
- left:20%;
+ left:10%;
 }
 .signIn{
   border:2px solid blue;
   width:60%;
   height:30%;
   position:relative;
- left:25%;
+ left:15%;
 }
 
 button.btn.btn-primary{
@@ -156,9 +156,9 @@ div.info{
 }
 button.btn.rate{
   position: absolute;
-  left:70%;
+  left:65%;
   top:40%;
-  border-radius:6px;
+  border-radius:5px;
   color:black;
   font-weight: 700;
   background-color:green;

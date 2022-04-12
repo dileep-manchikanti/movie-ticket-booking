@@ -1,8 +1,6 @@
 import React, { Component, useState } from "react";
 import {useLocation} from 'react-router-dom';
-import {AiFillHeart} from 'react-icons/ai'
-import {Card,CardBody,CardText,CardImg,CardTitle,CardImgOverlay, Modal, ModalHeader} from 'reactstrap';
-import { getIdTokenResult } from "firebase/auth";
+import {Card,CardImg} from 'reactstrap';
 function Movie(props) {
     const location=useLocation();
     const  params=location.state;
@@ -23,11 +21,11 @@ function Movie(props) {
             </div>
             <div className="info">
                 <h1 className="text-center">{movie.titleOriginal}</h1>
-                <div className="rating"><AiFillHeart />   {movie.rating}</div>
+                <div className="rating"><i className="fa fa-heart fa-lg"></i>   {movie.rating}</div>
                 <div className="review">
                     Add your rating and review<br></br>
                     Your ratings matter<br></br>
-                    <button className="btn  rate">Rate Movie</button>
+                    <button className="btn  rate">Rate Movie<i className="fa fa-star fa-lg"></i></button>
                 </div>
                 <div className="genres">
                     {getgenres()}
@@ -36,7 +34,7 @@ function Movie(props) {
                     <h2>About Movie</h2>
                     {movie.description}
                 </div>
-                <button className="btn btn-primary book">Book Tickets</button>
+                <button className="btn btn-primary book">Book Tickets <i className="fa fa-ticket fa-lg"></i></button>
             </div>
             </div>
     );
