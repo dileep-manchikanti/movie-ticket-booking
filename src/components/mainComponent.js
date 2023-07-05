@@ -21,7 +21,6 @@ class Main extends Component{
           <Route exact path='/signIn' element={<SignIn />} />
           <Route exact path='/dashboard' element={<Home />} />
           <Route  name="movie" path='/movie' element={<Movie />} />
-          {/* <Route path="" element={<Navigate to="/signUp" />} /> */}
         </Routes>
         </div>
         );

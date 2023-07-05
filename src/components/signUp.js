@@ -99,7 +99,7 @@ class SignUp extends Component{
                 </FormGroup>
                 <FormGroup>
                     <Col>
-                        <Button to='signIn' className='btn btn-primary' type='submit'  color='primary'><span className='fa fa-sign-up fa-lg'></span>SignUp</Button><Link to='signIn' className='up'>Already Have an Account</Link>
+                        <Button  className='btn btn-primary' type='submit'  color='primary'>SignUp  <i className='fa fa-user-plus fa-lg'></i></Button><Link to='signIn' className='up'>Already Have an Account</Link>
                     </Col>
                 </FormGroup>
             </Form>

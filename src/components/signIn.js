@@ -44,7 +44,6 @@ class SignIn extends Component{
     signIn(){
         const email=this.state.email;
         const password=this.state.password;
-        alert(email+" "+password);
         signInWithEmailAndPassword(auth,email,password)
         .then(()=>{
             alert("hi");
@@ -78,7 +77,7 @@ class SignIn extends Component{
                     </FormGroup>
                     <FormGroup>
                         <Col>
-                            <Button to='signIn' className='btn btn-primary' type='submit'  color='primary'>signIn  <span className='fa fa-sign-in fa-lg'></span></Button><Link to='/' className='in'>Dont Have an Account</Link>
+                            <Button to='signIn' className='btn btn-primary' type='submit'  color='primary'>signIn  <i className='fa fa-sign-in fa-lg'></i></Button><Link to='/' className='in'>Dont Have an Account</Link>
                         </Col>
                     </FormGroup>
                 </Form>

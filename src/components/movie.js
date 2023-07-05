@@ -1,4 +1,4 @@
-import React, { Component, useState } from "react";
+import React from "react";
 import {useLocation} from 'react-router-dom';
 import {Card,CardImg} from 'reactstrap';
 function Movie(props) {
@@ -34,9 +34,10 @@ function Movie(props) {
                     <h2>About Movie</h2>
                     {movie.description}
                 </div>
-                <button className="btn btn-primary book">Book Tickets <i className="fa fa-ticket fa-lg"></i></button>
+                <button className="btn btn-primary book" >Book Tickets <i className="fa fa-ticket fa-lg"></i></button>
             </div>
             </div>
+           
     );
 }
 
